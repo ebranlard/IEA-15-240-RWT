@@ -1,7 +1,7 @@
 ------- OpenFAST INPUT FILE ------------------------------------------- 
 IEA 15 MW offshore reference model on UMaine VolturnUS-S semi-submersible floating platform
 ---------------------- SIMULATION CONTROL -------------------------------------- 
-True                  Echo        - Echo input data to <RootName>.ech (flag) 
+False                  Echo        - Echo input data to <RootName>.ech (flag) 
 "FATAL"                AbortLevel  - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"} 
 10.0                   TMax        - Total run time (s) 
 0.025                  DT          - Integration time step (s)  
@@ -27,9 +27,9 @@ True                  Echo        - Echo input data to <RootName>.ech (flag)
 "../IEA-15-240-RWT/IEA-15-240-RWT_AeroDyn15.dat"  AeroFile     - Name of file containing aerodynamic input parameters (quoted string) 
 "IEA-15-240-RWT-UMaineSemi_ServoDyn.dat"    ServoFile       - Name of file containing control and electrical-drive input parameters (quoted string) 
 "IEA-15-240-RWT-UMaineSemi_HydroDyn.dat"      HydroFile       - Name of file containing hydrodynamic input parameters (quoted string) 
-"unused"      SubFile         - Name of file containing sub-structural input parameters (quoted string) 
+"none"                 SubFile         - Name of file containing sub-structural input parameters (quoted string) 
 "IEA-15-240-RWT-UMaineSemi_MoorDyn.dat"      MooringFile     - Name of file containing mooring system input parameters (quoted string) 
-"unused"      IceFile         - Name of file containing ice input parameters (quoted string) 
+"none"                 IceFile         - Name of file containing ice input parameters (quoted string) 
 ---------------------- OUTPUT -------------------------------------------------- 
 False                  SumPrint    - Print summary data to "<RootName>.sum" (flag) 
 10.0                   SttsTime    - Amount of time between screen status messages (s) 
