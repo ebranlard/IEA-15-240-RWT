@@ -1,0 +1,101 @@
+------- ELASTODYN V1.00.* TOWER INPUT FILE -------------------------------------
+IEA 15 MW offshore reference model monopile configuration
+---------------------- TOWER PARAMETERS ----------------------------------------
+         60   NTwInpSt    - Number of input stations to specify tower geometry
+0.32                   TwrFADmp(1) - Tower 1st fore-aft mode structural damping ratio (%)
+0.32                   TwrFADmp(2) - Tower 2nd fore-aft mode structural damping ratio (%)
+0.32                   TwrSSDmp(1) - Tower 1st side-to-side mode structural damping ratio (%)
+0.32                   TwrSSDmp(2) - Tower 2nd side-to-side mode structural damping ratio (%)
+---------------------- TOWER ADJUSTMUNT FACTORS --------------------------------
+1.0                    FAStTunr(1) - Tower fore-aft modal stiffness tuner, 1st mode (-)
+1.0                    FAStTunr(2) - Tower fore-aft modal stiffness tuner, 2nd mode (-)
+1.0                    SSStTunr(1) - Tower side-to-side stiffness tuner, 1st mode (-)
+1.0                    SSStTunr(2) - Tower side-to-side stiffness tuner, 2nd mode (-)
+1.0                    AdjTwMa     - Factor to adjust tower mass density (-)
+1.0                    AdjFASt     - Factor to adjust tower fore-aft stiffness (-)
+1.0                    AdjSSSt     - Factor to adjust tower side-to-side stiffness (-)
+---------------------- DISTRIBUTED TOWER PROPERTIES ----------------------------
+  HtFract       TMassDen         TwFAStif       TwSSStif
+   (-)           (kg/m)           (Nm^2)         (Nm^2)
+ 0.000         1e-6        2.00E+13       2.00E+13
+ 0.0095        1e-6        2.00E+13       2.00E+13
+ 0.0096        1e-6        2.00E+13       2.00E+13
+ 0.0266        1e-6        2.00E+13       2.00E+13
+ 0.0436        1e-6        2.00E+13       2.00E+13
+ 0.0437        1e-6        2.00E+13       2.00E+13
+ 0.0652        1e-6        2.00E+13       2.00E+13
+ 0.0741        1e-6        2.00E+13       2.00E+13
+ 0.0891        1e-6        2.00E+13       2.00E+13
+ 0.0892        1e-6        2.00E+13       2.00E+13
+ 0.1139        1e-6        2.00E+13       2.00E+13
+ 0.1346        1e-6        2.00E+13       2.00E+13
+ 0.1347        1e-6        2.00E+13       2.00E+13
+ 0.1585        1e-6        2.00E+13       2.00E+13
+ 0.1586        1e-6        2.00E+13       2.00E+13
+ 0.1823        1e-6        2.00E+13       2.00E+13
+ 0.2061        1e-6        2.00E+13       2.00E+13
+ 0.2062        1e-6        2.00E+13       2.00E+13
+ 0.2300        1e-6        2.00E+13       2.00E+13
+ 0.2538        1e-6        2.00E+13       2.00E+13
+ 0.2539        1e-6        2.00E+13       2.00E+13
+ 0.2787        1e-6        2.00E+13       2.00E+13
+ 0.2933        1e-6        2.00E+13       2.00E+13
+ 0.2934        1e-6        2.00E+13       2.00E+13
+ 0.3066        1e-6        2.00E+13       2.00E+13
+ 0.3305        1e-6        2.00E+13       2.00E+13
+ 0.3306        1e-6        2.00E+13       2.00E+13
+ 0.3543        1e-6        2.00E+13       2.00E+13
+ 0.3782        1e-6        2.00E+13       2.00E+13
+ 0.3783        1e-6        2.00E+13       2.00E+13
+ 0.4020        1e-6        2.00E+13       2.00E+13
+ 0.4259        1e-6        2.00E+13       2.00E+13
+ 0.4260        1e-6        2.00E+13       2.00E+13
+ 0.4669        1e-6        2.00E+13       2.00E+13
+ 0.4744        1e-6        2.00E+13       2.00E+13
+ 0.4745        1e-6        2.00E+13       2.00E+13
+ 0.4877        1e-6        2.00E+13       2.00E+13
+ 0.5763        1e-6        2.00E+13       2.00E+13
+ 0.6240        1e-6        2.00E+13       2.00E+13
+ 0.6241        1e-6        2.00E+13       2.00E+13
+ 0.6478        1e-6        2.00E+13       2.00E+13
+ 0.6955        1e-6        2.00E+13       2.00E+13
+ 0.7202        1e-6        2.00E+13       2.00E+13
+ 0.7382        1e-6        2.00E+13       2.00E+13
+ 0.7383        1e-6        2.00E+13       2.00E+13
+ 0.7552        1e-6        2.00E+13       2.00E+13
+ 0.7729        1e-6        2.00E+13       2.00E+13
+ 0.7730        1e-6        2.00E+13       2.00E+13
+ 0.7967        1e-6        2.00E+13       2.00E+13
+ 0.8206        1e-6        2.00E+13       2.00E+13
+ 0.8207        1e-6        2.00E+13       2.00E+13
+ 0.8444        1e-6        2.00E+13       2.00E+13
+ 0.8445        1e-6        2.00E+13       2.00E+13
+ 0.8638        1e-6        2.00E+13       2.00E+13
+ 0.8639        1e-6        2.00E+13       2.00E+13
+ 0.8831        1e-6        2.00E+13       2.00E+13
+ 0.9361        1e-6        2.00E+13       2.00E+13
+ 0.9739        1e-6        2.00E+13       2.00E+13
+ 0.9740        1e-6        2.00E+13       2.00E+13
+ 1.0000        1e-6        2.00E+13       2.00E+13 
+---------------------- TOWER FORE-AFT MODE SHAPES ------------------------------
+-0.9828130154249461    TwFAM1Sh(2) - Mode 1, coefficient of x^2 term
+6.91815051981297       TwFAM1Sh(3) -       , coefficient of x^3 term
+-11.249376375855121    TwFAM1Sh(4) -       , coefficient of x^4 term
+9.234204045813422      TwFAM1Sh(5) -       , coefficient of x^5 term
+-2.920165174346324     TwFAM1Sh(6) -       , coefficient of x^6 term
+30.302404936902295     TwFAM2Sh(2) - Mode 2, coefficient of x^2 term
+-227.86091586485466    TwFAM2Sh(3) -       , coefficient of x^3 term
+354.0878575545529      TwFAM2Sh(4) -       , coefficient of x^4 term
+-225.38090968192594    TwFAM2Sh(5) -       , coefficient of x^5 term
+69.8515630553254       TwFAM2Sh(6) -       , coefficient of x^6 term
+---------------------- TOWER SIDE-TO-SIDE MODE SHAPES --------------------------
+-0.9771360049714551    TwSSM1Sh(2) - Mode 1, coefficient of x^2 term
+6.875113167681715      TwSSM1Sh(3) -       , coefficient of x^3 term
+-11.169533990573534    TwSSM1Sh(4) -       , coefficient of x^4 term
+9.158651591912477      TwSSM1Sh(5) -       , coefficient of x^5 term
+-2.8870947640492037    TwSSM1Sh(6) -       , coefficient of x^6 term
+59.912700868016614     TwSSM2Sh(2) - Mode 2, coefficient of x^2 term
+-450.52002131395074    TwSSM2Sh(3) -       , coefficient of x^3 term
+724.023167668321       TwSSM2Sh(4) -       , coefficient of x^4 term
+-511.1945845887994     TwSSM2Sh(5) -       , coefficient of x^5 term
+178.77873736641249     TwSSM2Sh(6) -       , coefficient of x^6 term
