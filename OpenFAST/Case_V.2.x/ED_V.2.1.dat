@@ -170,8 +170,4 @@ END of input file (the word "END" must appear in the first 3 columns of this las
 "TDy"    - local edgewise (translational) deflection (relative to the undeflected position) of node
 "RDz"
 END of input file (the word "END" must appear in the first 3 columns of this last OutList line)
-<<<<<<< HEAD
 ---------------------------------------------------------------------------------------
-=======
----------------------------------------------------------------------------------------
->>>>>>> iea47
