@@ -1,5 +1,5 @@
 ------- ELASTODYN V1.00.* TOWER INPUT FILE -------------------------------------
-IEA 15 MW offshore reference model onshore configuration
+IEA 15 MW offshore reference model fixed-substructure configuration
 ---------------------- TOWER PARAMETERS ----------------------------------------
 20                     NTwInpSt    - Number of input stations to specify tower geometry
 0.32                   TwrFADmp(1) - Tower 1st fore-aft mode structural damping ratio (%)
