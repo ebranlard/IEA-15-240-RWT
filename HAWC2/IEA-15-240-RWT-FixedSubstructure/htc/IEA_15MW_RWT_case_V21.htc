@@ -216,7 +216,7 @@ begin new_htc_structure;
       mbdy1  connector last;
       mbdy2  shaft 1;
       mbdy2_eulerang 0.0 0.0 0.0;    same as connector; zS along shaft upwind
-      mbdy2_ini_rotvec_d1 0.0 0.0 -1.0 0.2 ;
+      mbdy2_ini_rotvec_d1 0.0 0.0 -1.0 0.5581562947877866 ;
     end relative;
 ;
     begin relative;  hub1 to shaft
