@@ -19,17 +19,19 @@ Data in this repository includes:
 * NREL's Reference OpenSource Controller (ROSCO) is required.  This can be compiled [from source here](https://github.com/nrel/rosco) or precompiled binaries for all platforms are [available for download](https://github.com/NREL/ROSCO/releases/).
 
 *HAWC2*:
-* HAWC2 can be acquired from its [homepage](https://www.hawc2.dk/)
+* HAWC2 can be acquired from its [homepage](https://www.hawc2.dk/).  The DTU Basic Controller can be obtained from its [repository](https://gitlab.windenergy.dtu.dk/OpenLAC/BasicDTUController).
 
 *WISDEM*:
  * WISDEM can be installed from its Github [repository](https://github.com/WISDEM/WISDEM).
  * See the [documentation](https://wisdem.readthedocs.io) for installation and usage guides.
+
 
 ## Design Updates
 
 The IEA Wind Task 37 authors endeavor to keep the model input decks current with the latest releases and API changes.  Errors and other issues pointed out by the community are also addressed to the extent that available resources make that possible.  See the [Release Notes](blob/master/ReleaseNotes.md) for a detailed description of changes.
 
 We also encourage the broader wind community to submit design updates by forking the repository and letting us know of your design customatization.  Community contributions that we are aware of include:
+* [Bladed implementation](https://github.com/IEAWindTask37/IEA-15-240-RWT/wiki/Frequently-Asked-Questions-(FAQ)#is-bladed-supported)
 * [OrcaFlex implementation](https://github.com/IEAWindTask37/IEA-15-240-RWT/wiki/Frequently-Asked-Questions-(FAQ)#is-orcaflex-supported)
 
 ## Citations
